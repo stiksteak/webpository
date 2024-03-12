@@ -80,6 +80,13 @@ footer p a {
     text-decoration: none;
 }
 
+/* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
 
     /* Desktop Viewport: Style Rules for main content */
     main {
