@@ -25,6 +25,7 @@ nav ul {
 nav li {
 	font-size: 1.9em;
 	font-family: 'Kanit', sans-serif;
+	
 }
 
 nav li:first-child {
@@ -52,7 +53,7 @@ main {
 }
 
 .hours {
-	margin-left: 10%
+	margin-left: 20%
 }
 
 .round {
@@ -105,12 +106,11 @@ footer p a {
     }
     
     #Gary, #Doe, #Kongo {
-        width: 29%;
-        float: left;
-        margin: 0 2%;
+        width: 20%;
+        margin: auto auto;
+		float: left;
     }
 	
-	#animals
     
    .offer:hover {
         transform: scale(1.25);
