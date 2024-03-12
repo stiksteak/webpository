@@ -1,0 +1,139 @@
+/*
+Author: Darren Lowery
+Date: 11/13/2023
+File Name: styles.css
+*/
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color: #495F41;
+}
+
+nav {
+	padding: 1%;
+	margin-bottom: 1%
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+	font-size: 1.9em;
+	font-family: 'Kanit', sans-serif;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #9FAF90;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+	color: #000;
+    background-color: #fff;
+    transform: scale(1);
+}
+/* styles for main content */
+main {
+    background-color: #9FAF90;
+    padding: 2%;
+    font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.hours {
+	margin-left: 10%
+}
+
+.round {
+	border-radius: 8px;
+}
+
+.external-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.map {
+	border: 2px solid #000;
+    height: 100%;
+	width: 100%;
+}
+
+/*Style Rules for footer*/
+footer p
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+    /* Desktop Viewport: Style Rules for main content */
+    main {
+        clear: left;
+    }
+    
+    main h1 {
+        font-size: 1.8em;
+    }
+    
+    
+    .frame  {
+        opacity: 1;
+    }
+    
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080;
+        transform: translateY(10px);
+    }
+    
+    #Gary, #Doe, #Kongo {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+	
+	#animals
+    
+   .offer:hover {
+        transform: scale(1.25);
+        cursor: pointer;
+    }
+	
+	/* Style rules for form elements */
+fieldset, input, select, textarea  { 
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+label {
+    display: round;
+    padding-top: 5%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    font-size: 1em;
+    border-radius: 10px;
+}
